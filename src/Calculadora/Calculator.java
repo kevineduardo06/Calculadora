@@ -30,6 +30,7 @@ public class Calculator extends javax.swing.JFrame {
         txf_valor.setEnabled(false);
         setTitle("Calculadora");
         txf_valor.setText(Integer.toString(comparar));
+        this.setLocationRelativeTo(null);
         
     }
 
